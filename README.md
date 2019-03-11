@@ -135,9 +135,9 @@ gaiacli tx staking delegate [VALIDATOR-ADDR] [AMOUNT] --fees [FEES] --from [KEYN
 - [AMOUNT] : put amount of uatom you want to delegate(1atom = 1000000uatom, example:1000000uatom)
   
 
-- [FEES] : 지출할 fee를 uatom으로 입력(예:100000uatom)
+- [FEES] : 지출할 fee를 uatom으로 입력(메인넷 예:100000uatom)(gaia-13001 테스트넷 예:200000photino)
   
-- [FEES] : put amount of uatom for fee(example:100000uatom)
+- [FEES] : put amount of uatom for fee(mainnet example:100000uatom)(gaia-13001 testnet example:200000photino)
   
 
 - [KEYNAME] : 사용할 지갑의 key 이름 입력
@@ -145,9 +145,9 @@ gaiacli tx staking delegate [VALIDATOR-ADDR] [AMOUNT] --fees [FEES] --from [KEYN
 - [KEYNAME] : put key name of your wallet
   
 
-- [CHAIN-ID] : 체인ID(예:cosmoshub-1)
+- [CHAIN-ID] : 체인ID(메인넷 예:cosmoshub-1)(gaia-13001 테스트넷 예:gaia-13001)
   
-- [CHAIN-ID] : chain ID(example:cosmoshub-1)
+- [CHAIN-ID] : chain ID(mainnet example:cosmoshub-1)(gaia-13001 testnet example:gaia-13001)
   
 
 - [NODE] : transaction을 전송할 대상 노드(예:tcp://18.194.218.14:26657), BHarvest 퍼블릭 노드 주소입니다.

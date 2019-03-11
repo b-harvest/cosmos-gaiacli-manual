@@ -117,6 +117,26 @@ gaiacli keys delete [KEYNAME]
 - put key name which you want to delete in [KEYNAME]
 
 
+### 잔고확인(account balance check)
+
+```bash
+query account [ACCOUNT-ADDR] --chain-id [CHAIN-ID] --node [NODE]
+```
+
+- [ACCOUNT-ADDR] : "cosmos"로 시작하는 지갑 주소
+
+- [ACCOUNT-ADDR] : wallet address starting with "cosmos..."
+
+
+- [CHAIN-ID] : 체인ID(메인넷 예:cosmoshub-1)(gaia-13001 테스트넷 예:gaia-13001)
+  
+- [CHAIN-ID] : chain ID(mainnet example:cosmoshub-1)(gaia-13001 testnet example:gaia-13001)
+  
+
+- [NODE] : transaction을 전송할 대상 노드(예:tcp://18.194.218.14:26657), BHarvest 퍼블릭 노드 주소입니다.
+                                                                
+- [NODE] : target node to send transaction to(example:tcp://18.194.218.14:26657) , BHarvest public node
+
 
 ### 위임 transaction 실행(execute delegation transaction)
 

@@ -1,5 +1,12 @@
 # 중요 공지사항!!!(Important Notice!!!)
 
+해당 내용은 위임자가 키를 복구하거나 위임을 실행하는 과정을 설명합니다.
+
+This manual explains how to recover key and to delegate.
+
+과정을 실행하는데 있어 발생할 수 있는 모든 위험은 전적으로 실행하는 본인의 책임하에 이뤄져야 합니다!!!
+
+Every risk associated with the procedure is totally upon each executor himself or herself!!!
 
 
 # Cosmos Gaiacli Manual

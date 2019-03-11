@@ -63,6 +63,12 @@ docker run -it tendermint/gaia:stable /bin/sh
 ```
 
 
+### gaiacli version 확인(check gaiacli version)
+
+```bash
+gaiacli version --long
+```
+
 
 ### key 복구(key recovery)
 

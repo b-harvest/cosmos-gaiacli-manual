@@ -8,6 +8,9 @@ This manual explains how to recover key and to delegate.
 
 Every risk associated with the procedure is totally upon each executor himself or herself!!!
 
+메인넷 제네시스 시각 : UTC 2019-03-13 23:00:00 / Seoul 2019-03-14 08:00:00
+
+Mainnet Genesis Time : UTC 2019-03-13 23:00:00
 
 # Cosmos Gaiacli Manual
 

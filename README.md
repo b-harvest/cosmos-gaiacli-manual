@@ -137,9 +137,9 @@ gaiacli tx staking delegate [VALIDATOR-ADDR] [AMOUNT] --fees [FEES] --from [KEYN
 - (* testnet BHarvest validator address = cosmosvaloper1cvs6f2nrdwqa9et70vpl5tm56ux4z95ma3dh68)
 
 
-- [AMOUNT] : 위임금액을 uatom으로 입력(1atom = 1000000uatom, 예:1000000uatom)
+- [AMOUNT] : 위임금액을 uatom으로 입력(1atom = 1000000uatom, 메인넷예:1000000uatom, 테스트넷예:1000000muon)
   
-- [AMOUNT] : put amount of uatom you want to delegate(1atom = 1000000uatom, example:1000000uatom)
+- [AMOUNT] : put amount of uatom you want to delegate(1atom = 1000000uatom, mainnet example:1000000uatom, testnet:1000000muon)
   
 
 - [FEES] : 지출할 fee를 uatom으로 입력(메인넷 예:100000uatom)(gaia-13001 테스트넷 예:200000photino)

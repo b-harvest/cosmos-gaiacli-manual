@@ -1,8 +1,12 @@
+# 중요 공지사항!!!(Important Notice!!!)
+
+
+
 # Cosmos Gaiacli Manual
 
-docker 환경을 통한 코스모스 키 복구 및 위임 테스트 매뉴얼
+docker 환경을 통한 코스모스 키 복구 및 위임 매뉴얼
 
-Cosmos key recovery and delegation test manual by docker image
+Cosmos key recovery and delegation manual by docker image
 
 
 
@@ -128,9 +132,9 @@ gaiacli tx staking delegate [VALIDATOR-ADDR] [AMOUNT] --fees [FEES] --from [KEYN
 - [KEYNAME] : put key name of your wallet
   
 
-- [CHAIN-ID] : 체인ID(예:gaia-13001)
+- [CHAIN-ID] : 체인ID(예:cosmoshub-1)
   
-- [CHAIN-ID] : chain ID(example:gaia-13001)
+- [CHAIN-ID] : chain ID(example:cosmoshub-1)
   
 
 - [NODE] : transaction을 전송할 대상 노드(예:tcp://18.194.218.14:26657), BHarvest 퍼블릭 노드 주소입니다.

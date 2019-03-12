@@ -120,7 +120,7 @@ gaiacli keys delete [KEYNAME]
 ### 잔고확인(account balance check)
 
 ```bash
-query account [ACCOUNT-ADDR] --chain-id [CHAIN-ID] --node [NODE]
+gaiacli query account [ACCOUNT-ADDR] --chain-id [CHAIN-ID] --node [NODE]
 ```
 
 - [ACCOUNT-ADDR] : "cosmos"로 시작하는 지갑 주소

@@ -89,9 +89,9 @@ gaiacli keys add [KEYNAME] --recover
 - input password for this key.(key will be encrypted by this password)
 
 
-- 시드단어를 입력합니다.(24단어)
+- 시드단어를 입력합니다.(24단어, ico 참여자는 12단어)
 
-- enter mnemonic(24 words)
+- enter mnemonic(24 words, 12 words for ico participants)
 
 
 
@@ -146,15 +146,12 @@ gaiacli tx staking delegate [VALIDATOR-ADDR] [AMOUNT] --fees [FEES] --from [KEYN
 
 - [VALIDATOR-ADDR] : 위임하고자 하는 검증인의 검증인주소를 입력(cosmosvaloper로 시작되는 주소)
   
-- (메인넷 비하베스트 검증인주소 = cosmosvaloper10e4vsut6suau8tk9m6dnrm0slgd6npe3jx5xpv)
+- (메인넷/테스트넷 비하베스트 검증인주소 = cosmosvaloper10e4vsut6suau8tk9m6dnrm0slgd6npe3jx5xpv)
 
-- (* 테스트넷 비하베스트 검증인주소 = cosmosvaloper1cvs6f2nrdwqa9et70vpl5tm56ux4z95ma3dh68)
 
 - [VALIDATOR-ADDR] : put validator address of whom you want to delegate to(validator address starts with "cosmosvaloper...")
   
-- (mainnet BHarvest validator address = cosmosvaloper10e4vsut6suau8tk9m6dnrm0slgd6npe3jx5xpv)
-
-- (* testnet BHarvest validator address = cosmosvaloper1cvs6f2nrdwqa9et70vpl5tm56ux4z95ma3dh68)
+- (mainnet/testnet BHarvest validator address = cosmosvaloper10e4vsut6suau8tk9m6dnrm0slgd6npe3jx5xpv)
 
 
 - [AMOUNT] : 위임금액을 uatom으로 입력(1atom = 1000000uatom, 메인넷예:1000000uatom, 테스트넷예:1000000muon)

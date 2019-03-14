@@ -177,7 +177,52 @@ gaiacli tx staking delegate [VALIDATOR-ADDR] [AMOUNT] --fees [FEES] --from [KEYN
 - [NODE] : transaction을 전송할 대상 노드(예:tcp://18.194.218.14:26657), BHarvest 퍼블릭 노드 주소입니다.
                                                                 
 - [NODE] : target node to send transaction to(example:tcp://18.194.218.14:26657) , BHarvest public node
-                                                                                  
+
+
+### 위임이동 transaction 실행(execute redelegation transaction)
+
+```bash
+gaiacli tx staking redelegate [FROM-VALIDATOR-ADDR] [TO-VALIDATOR-ADDR] [AMOUNT] --fees [FEES] --from [KEYNAME] --chain-id [CHAIN-ID] --node [NODE]
+```
+
+- [FROM-VALIDATOR-ADDR] : 기존 검증인 주소(cosmosvaloper로시작)
+  
+- [FROM-VALIDATOR-ADDR] : validator address in which you currently delegate to(validator address starts with "cosmosvaloper...")
+
+
+- [TO-VALIDATOR-ADDR] : 위임하고자 하는 검증인의 검증인주소를 입력(cosmosvaloper로 시작되는 주소)
+  
+- (메인넷/테스트넷 비하베스트 검증인주소 = cosmosvaloper10e4vsut6suau8tk9m6dnrm0slgd6npe3jx5xpv)
+
+- [TO-VALIDATOR-ADDR] : put validator address of whom you want to delegate to(validator address starts with "cosmosvaloper...")
+  
+- (mainnet/testnet BHarvest validator address = cosmosvaloper10e4vsut6suau8tk9m6dnrm0slgd6npe3jx5xpv)
+
+
+- [AMOUNT] : 위임금액을 uatom으로 입력(1atom = 1000000uatom, 메인넷예:1000000uatom, 테스트넷예:1000000muon)
+  
+- [AMOUNT] : put amount of uatom you want to delegate(1atom = 1000000uatom, mainnet example:1000000uatom, testnet:1000000muon)
+  
+
+- [FEES] : 지출할 fee를 uatom으로 입력(메인넷 예:100000uatom)(gaia-13001 테스트넷 예:200000photino)
+  
+- [FEES] : put amount of uatom for fee(mainnet example:100000uatom)(gaia-13001 testnet example:200000photino)
+  
+
+- [KEYNAME] : 사용할 지갑의 key 이름 입력
+  
+- [KEYNAME] : put key name of your wallet
+  
+
+- [CHAIN-ID] : 체인ID(메인넷 예:cosmoshub-1)(gaia-13001 테스트넷 예:gaia-13001)
+  
+- [CHAIN-ID] : chain ID(mainnet example:cosmoshub-1)(gaia-13001 testnet example:gaia-13001)
+  
+
+- [NODE] : transaction을 전송할 대상 노드(예:tcp://18.194.218.14:26657), BHarvest 퍼블릭 노드 주소입니다.
+                                                                
+- [NODE] : target node to send transaction to(example:tcp://18.194.218.14:26657) , BHarvest public node
+
 
 ### Q & A
 

@@ -158,7 +158,27 @@ gaiacli tx staking redelegate [FROM-VALIDATOR-ADDR] [TO-VALIDATOR-ADDR] [AMOUNT]
 - [CHAIN-ID] : 체인ID(메인넷 예:cosmoshub-1)(gaia-13001 테스트넷 예:gaia-13001)
   
 - [NODE] : transaction을 전송할 대상 노드(예:tcp://18.194.218.14:26657), BHarvest 퍼블릭 노드 주소입니다.
-                                                                
+
+### Governance
+
+- view proposals
+gaiacli query gov proposals --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
+
+- view proposal status
+gaiacli query gov proposal 1 --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
+
+- view voting status
+gaiacli query gov votes 1 --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
+
+- view deposit status
+gaiacli query gov deposits 1 --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
+
+- vote
+gaiacli tx gov vote 1 yes --fees <fees> --from <keyname> --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
+
+- deposit
+gaiacli tx gov deposit 1 50000000uatom --fees <fees> --from <keyname> --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
+
 
 ### Q & A
 

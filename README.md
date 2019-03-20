@@ -162,21 +162,27 @@ gaiacli tx staking redelegate [FROM-VALIDATOR-ADDR] [TO-VALIDATOR-ADDR] [AMOUNT]
 ### Governance
 
 - view proposals
+
 gaiacli query gov proposals --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
 
 - view proposal status
+
 gaiacli query gov proposal 1 --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
 
 - view voting status
+
 gaiacli query gov votes 1 --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
 
 - view deposit status
+
 gaiacli query gov deposits 1 --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
 
 - vote
+
 gaiacli tx gov vote 1 yes --fees <fees> --from <keyname> --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
 
 - deposit
+
 gaiacli tx gov deposit 1 50000000uatom --fees <fees> --from <keyname> --chain-id cosmoshub-1 --node tcp://18.194.218.14:26657
 
 
